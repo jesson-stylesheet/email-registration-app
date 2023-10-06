@@ -1,3 +1,5 @@
+console.log("Supabase object:", Supabase);
+
 // Initialize Supabase client (replace with your own Supabase URL and public anon key)
 const supabase = Supabase.createClient('https://qqilepmtenqjiivhsjhe.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFxaWxlcG10ZW5xamlpdmhzamhlIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTY1NzcyMzcsImV4cCI6MjAxMjE1MzIzN30.P-R8tBy9jCedYMbcWyn2agEGWTDkD9Owmdz6LV8qnoc');
 
