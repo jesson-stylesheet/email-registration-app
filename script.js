@@ -24,3 +24,12 @@ async function verifyEmail() {
         document.getElementById('message').textContent = 'Please use another email!';
     }
 }
+
+// Preventing the 'Submit' function on the button and add the verifyEmail function
+document.addEventListener("DOMContentLoaded", function() {
+    const emailForm = document.getElementById('emailForm');
+    emailForm.addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the form from submitting and the page from refreshing
+        verifyEmail();
+    });
+});
